@@ -15,5 +15,10 @@
     "noImplicitReturns": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src"],
+    "extends": "ts-node/node16/tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+  },
 }
